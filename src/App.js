@@ -5,11 +5,15 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header"></header>
+        <header className="App-header">
+          <h1>Dictionary</h1>
+        </header>
+        <br />
         <div>
           <Dictionary />
         </div>
-        <footer>Coded by Eva Groenendijk</footer>
+        <br />
+        <footer className="Footer">Coded by Eva Groenendijk</footer>
       </div>
     </div>
   );
